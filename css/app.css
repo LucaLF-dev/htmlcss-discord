@@ -72,12 +72,24 @@
 .button-small {
     border-radius: 40px;
     font-size: 14px;
-    padding: 11px 18px;
+    padding: 9px 18px;
+    
 }
 
 .button-white {
     background-color: white;
 }
+
+.link {
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+.col-link {
+    text-align: center;
+}
+
 
 
 
