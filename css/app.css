@@ -196,10 +196,11 @@ text-align: left;
     color: white;
 }
 
-.col-12.downpage{
-    align-items: center;
-    display: inline-block;
+.down-text {
+    text-align: center;
+
 }
+
 
 
 
