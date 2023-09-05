@@ -102,6 +102,10 @@ body{
 
 /* MAIN */
 
+.image-section {
+    width: 100%;
+
+}
 /* hero */
 
 
@@ -130,12 +134,16 @@ h1{
     margin-bottom: 20px;
 }
 
+p{
+    font-size: 20px;
+}
+
 .hero-text > h1, p{
    padding: 10px;
    text-align: center;
    line-height: 30px;
    color: white;
-   font: 20px;
+   
 }
 
 .hero-button{
@@ -144,9 +152,30 @@ h1{
     flex-wrap: wrap;
     padding: 10px;
 }
- .margin-right{
- margin-right: 20px;
- }
+
+.margin-right{
+    margin-right: 20px;
+   }
+
+   /* SECTION */
+ 
+.text-section {
+    font-size: 15px;
+    font-weight: 500;
+    color:#222729 ;
+    text-align: left;
+    padding: 0;
+    line-height: 20px;
+}
+
+.title-section {
+    font-size: 30px;
+    margin-bottom: 15px;
+
+}
+
+
+
  
 
 
@@ -184,7 +213,7 @@ h1{
 } */
 
 .debug main [class^='col-'] {
-	min-height: 200px;
+	/* min-height: 200px; */
 	padding: 20px;
 	border: 2px dashed black;
 }
@@ -205,9 +234,9 @@ h1{
 	background-color: #1e90ff;
 }
 
-.debug main .col-4 {
+/* .debug main .col-4 {
 	background-color: #ffc0cb;
-}
+} */
 
 .debug .cta-section .col-12 {
 	background-color: #228b22;
