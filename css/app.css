@@ -14,13 +14,15 @@ body{
 }
 
 .container {
-	max-width: 800px;
+	max-width: 1000px;
 	margin: 0 auto;
+    
 }
 
 .container-sm {
 	max-width: 800px;
 	margin: 0 auto;
+    
 }
 
 .row {
@@ -231,64 +233,44 @@ footer span{
     padding: 9px 18px;
     line-height: 20px;
     background-color: #8EA1E1;
+    color: white;
 }
 
 .container.border-footer {
     border-top: 1px solid #7289DA;
 }
 
-/* DEBUG */
-.debug .page-header {
+.text-image-section{
+   padding: 200px;
+}
+
+
+ .page-header {
 	background-color: #3061E0;
 	padding: 10px;
 }
 
-.debug .page-footer {
+.page-footer {
 	background-color: #23272a;
-	padding: 10px;
+	padding: 30px;
 }
-
-.debug .page-header [class^='col'] {
-	/* background-color: #daa520; */
-	/* border: 2px dashed black; */
+.page-header [class^='col'] {
+	
 	padding: 20px;
 }
 
-.debug .hero {
-	/* background-color: #00008b; */
+
+ main section {
+min-height: 600px;
+padding: 60px 50px;
 }
 
-.debug main section {
-	padding: 200px;
-    min-height: 600px;
-
-}
-
-/* .debug .hero [class^='col-'] {
-	background-color: #ee82ee;
-} */
-
-.debug footer [class^='col-'] {
+footer [class^='col-'] {
 	min-height: 200px;
 	padding: 20px;
-	/*  border: 2px dashed white; */
 } 
 
-.debug footer .col {
+footer .col {
 	padding: 20px;
-	/* border: 2px dashed white;
-	color: white; */
-}
+ }	
 
-/* .debug main .col-8 {
-	background-color: #1e90ff;
-} */
-
-/* .debug main .col-4 {
-	background-color: #ffc0cb;
-} */
-
-/* .debug .cta-section .col-12 {
-	background-color: #228b22;
-	min-height: 400px;
-} */
