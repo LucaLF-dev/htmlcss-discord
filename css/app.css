@@ -28,6 +28,12 @@ body{
 	flex-wrap: wrap;
 }
 
+.row-downpage {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
 .col-12 {
 	flex-basis: calc((100% / 12) * 12);
 }
@@ -181,6 +187,19 @@ text-align: left;
 
 }
 
+.col-12, h4 {
+    font-size: 25px;
+}
+
+.button-downpage {
+    background-color: #8EA1E1;
+    color: white;
+}
+
+.col-12.downpage{
+    align-items: center;
+    display: inline-block;
+}
 
 
 
