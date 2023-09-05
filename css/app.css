@@ -19,7 +19,7 @@ body{
 }
 
 .container-sm {
-	max-width: 600px;
+	max-width: 800px;
 	margin: 0 auto;
 }
 
@@ -106,8 +106,6 @@ body{
 
 
 
-
-
 .bg-image {
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -115,6 +113,17 @@ body{
     background-repeat: no-repeat;
 }
 
+.button-big {
+    border-radius: 28px;
+    font-size: 20px;
+    padding: 16px 32px;
+    
+}
+
+.button-darkblu {
+    background-color: #222729;
+    color: white;
+}
 
 
 
@@ -141,7 +150,7 @@ body{
 }
 
 .debug main section {
-	padding: 20px;
+	padding: 200px;
     min-height: 600px;
     
 }
