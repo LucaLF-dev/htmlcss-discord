@@ -197,6 +197,7 @@ text-align: left;
     margin-top: 40px;
 }
 
+
 /* FOOTER */
 
 footer span{
@@ -214,8 +215,23 @@ footer span{
     font-size: 25px;
 }
 
+.row .language,.social-plug{
+    margin-top: 10px;
+}
 
+.flag-image {
+    width: 30px;
+    height: 15px;
 
+}
+
+.button-footer{
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 9px 18px;
+    line-height: 20px;
+    background-color: #8EA1E1;
+}
 
 
 
@@ -253,13 +269,13 @@ footer span{
 .debug footer [class^='col-'] {
 	min-height: 200px;
 	padding: 20px;
-	border: 2px dashed white;
-}
+	/*  border: 2px dashed white; */
+} 
 
 .debug footer .col {
 	padding: 20px;
-	border: 2px dashed white;
-	color: white;
+	/* border: 2px dashed white;
+	color: white; */
 }
 
 /* .debug main .col-8 {
