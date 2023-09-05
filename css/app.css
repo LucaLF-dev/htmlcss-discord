@@ -212,17 +212,11 @@ p{
 	background-color: #ee82ee;
 } */
 
-/* .debug main [class^='col-'] {
-	/* min-height: 200px; */
-	padding: 20px;
-	border: 2px dashed black; */
-}
-
-.debug footer [class^='col-'] {
+/* .debug footer [class^='col-'] {
 	min-height: 200px;
 	padding: 20px;
 	border: 2px dashed white;
-}
+} */
 
 .debug footer .col {
 	padding: 20px;
