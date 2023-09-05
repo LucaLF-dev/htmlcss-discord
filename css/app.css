@@ -127,24 +127,30 @@ body{
 
 h1{
     font-size: 56px;
+    margin-bottom: 20px;
 }
-
-
 
 .hero-text > h1, p{
    padding: 10px;
    text-align: center;
+   line-height: 30px;
    color: white;
    font: 20px;
 }
 
-
-
-
-.hero-button {
-    padding: 30px;
-
+.hero-button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
 }
+ .margin-right{
+ margin-right: 20px;
+ }
+ 
+
+
+
 
 /* DEBUG */
 .debug .page-header {
