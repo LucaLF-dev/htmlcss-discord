@@ -69,6 +69,16 @@
 	background-color: #d3d3d3;
 }
 
+.button-small {
+    border-radius: 40px;
+    font-size: 14px;
+    padding: 11px 18px;
+}
+
+.button-white {
+    background-color: white;
+}
+
 
 
 /* DEBUG */
