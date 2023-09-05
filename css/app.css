@@ -233,7 +233,9 @@ footer span{
     background-color: #8EA1E1;
 }
 
-
+.container.border-footer {
+    border-top: 1px solid #7289DA;
+}
 
 /* DEBUG */
 .debug .page-header {
