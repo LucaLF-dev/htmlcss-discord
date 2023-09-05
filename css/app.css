@@ -194,16 +194,25 @@ text-align: left;
 .button-downpage {
     background-color: #8EA1E1;
     color: white;
+    margin-top: 40px;
 }
 
-.down-text {
-    text-align: center;
+/* FOOTER */
 
+footer span{
+    color: white;
+    font-size: 15px;
+    line-height: 30px;
 }
 
+.page-footer h5{
+    color: #7289DA;
+    font-size: 15px;
+}
 
-
-
+.col-4 h5{
+    font-size: 25px;
+}
 
 
 
