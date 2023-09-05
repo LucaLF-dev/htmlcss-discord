@@ -125,8 +125,26 @@ body{
     color: white;
 }
 
+h1{
+    font-size: 56px;
+}
 
 
+
+.hero-text > h1, p{
+   padding: 10px;
+   text-align: center;
+   color: white;
+   font: 20px;
+}
+
+
+
+
+.hero-button {
+    padding: 30px;
+
+}
 
 /* DEBUG */
 .debug .page-header {
@@ -155,9 +173,9 @@ body{
     
 }
 
-.debug .hero [class^='col-'] {
+/* .debug .hero [class^='col-'] {
 	background-color: #ee82ee;
-}
+} */
 
 .debug main [class^='col-'] {
 	min-height: 200px;
