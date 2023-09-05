@@ -73,6 +73,8 @@
     border-radius: 40px;
     font-size: 14px;
     padding: 9px 18px;
+    display: inline-block;
+    line-height: 20px;
     
 }
 
@@ -80,15 +82,14 @@
     background-color: white;
 }
 
-.link {
+.col-link > a{
     text-decoration: none;
     color: white;
     margin: 8px;
+    display: inline-block;
 }
 
-.col-link {
-    text-align: center;
-}
+
 
 
 
@@ -97,6 +98,7 @@
 .debug .page-header {
 	background-color: #3061E0;
 	padding: 10px;
+    
 }
 
 .debug .page-footer {
@@ -106,7 +108,7 @@
 
 .debug .page-header [class^='col'] {
 	/* background-color: #daa520; */
-	border: 2px dashed black;
+	/* border: 2px dashed black; */
 	padding: 20px;
 }
 
